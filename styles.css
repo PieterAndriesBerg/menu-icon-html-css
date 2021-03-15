@@ -1,0 +1,36 @@
+/*color:  #D84282;*/
+
+:root {
+    --main-menu-color:  #D84282;
+}
+
+#menu {
+    background: none;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-top: 10px;
+}
+
+#menu::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 10px;
+    background-color: var(--main-menu-color);
+    box-shadow:  0 20px 0 0 white, 0 20px 0 0 white;
+}
+
+#menu::after {
+    left: 0;
+    top: 20px;
+    position: absolute;
+    width: 70px;
+    height: 10px;
+    background: var(--main-menu-color);
+    content: "";
+    box-shadow: 0 20px 0 0 var(--main-menu-color), 0 20px 0 0 var(--main-menu-color);
+
+}
