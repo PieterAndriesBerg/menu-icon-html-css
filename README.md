@@ -1,2 +1,2 @@
 # menu-icon-html-css
-A menu icon with pre html and css
+### A menu icon with Pure html and css
